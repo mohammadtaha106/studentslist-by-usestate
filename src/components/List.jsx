@@ -7,10 +7,10 @@ const List = ({name,fatherName,rollNo,img}) => {
 {<ul class="divide-y divide-slate-100">
     <li class="flex items-center gap-4 px-4 py-3">
         <div class="shrink-0">
-            <a href="#" class="relative flex items-center justify-center w-10 h-10 text-white rounded-full">
+            <span  class="relative flex items-center justify-center w-10 h-10 text-white rounded-full">
                 <img src={img} alt="user name" title="user name" width="40" height="40" class="max-w-full rounded-full" />
                 <span class=" absolute -bottom-0.5 -right-0.5 inline-flex items-center justify-center gap-1 rounded-full border-2 border-white bg-green-500 p-1 text-sm text-white"><span class="sr-only"> offline </span></span>
-            </a>
+                </span>
         </div>
         <div class="flex flex-col gap-0 min-h-[2rem] items-start justify-center w-full min-w-0">
             <h4 class="text-base text-slate-700">{name}</h4>
